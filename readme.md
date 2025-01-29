@@ -40,6 +40,7 @@ The **Multi-Search Engine Interface** project is designed to offer a versatile s
 
 - Integration with additional search engines or services.
 - Integration of voice search functionality.
+- Added Dark theme-mode.
 
 ## 🔗 Host Link
 
