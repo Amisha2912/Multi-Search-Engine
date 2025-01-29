@@ -47,4 +47,4 @@ You can access the live application here: [Multi-Search Engine Interface](https:
 
 ---
 
-Thank you for checking out the Multi-Search Engine Interface project! We hope this tool enhances your search experience and provides you with valuable information from various sources. Happy searching! 🌟
+Thank you for checking out the Multi-Search Engine Interface project! I hope this tool enhances your search experience and provides you with valuable information from various sources. Happy searching! 🌟
