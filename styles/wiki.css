@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wikiSearch{
+    background-color: #f6f7f8;
+    .h-tag{
+        text-align: center;
+        color: #000;
+        padding-top:40px;
+        font-size: 2.4rem;
+    }
+}
+
+#wikiSearch .wikipediaResultList{
+    padding:20px;
+
+    .result-item{
+        padding:15px 25px;
+        padding-bottom:40px;
+        .result-title a{
+            padding-left:10px;
+            text-decoration: none;
+            color:black;
+            font-size: 1.5rem;
+        }
+
+        .small-value{
+            display: flex;
+            gap:20px;
+            align-items: center;
+            padding:10px 0;
+            
+        }
+
+        .result-snippet{
+            font-size: 20px;
+        }
+    }
+}
+
+.date{
+    color:lightslategrey;
+    font-size: 12px;
+}
+

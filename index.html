@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Search-Engine</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/wiki.css">
+    <link rel="stylesheet" href="styles/images.css">
+</head>
+<body>
+    <div id="main-container">
+        <div class="side-bar fixed-sidebar">
+            <div class="topBarAction">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="sideNavButton">
+                <button class="newChat"><i class="fa-solid fa-plus"></i><span class="colllapseText">New Chat</span></button>
+            </div>
+            <div class="chatHistory">
+                <h4>Recent Chat</h4>
+                <ul></ul>
+
+            </div>
+
+            <div class="actionList">
+                <button class="transparentBtn"><i class="fa-regular fa-circle-question"></i><span class="colllapseText">Help</span></button>
+
+                <button class="transparentBtn"><i class="fa-solid fa-clock-rotate-left"></i><span class="colllapseText">Activity</span></button>
+
+                <button class="transparentBtn"><i class="fa-solid fa-gear"></i><span class="colllapseText">Settings</span></button>
+            </div>
+        </div>
+
+        <div class="chatWindow-wrapper">
+            <div class="chatWindow">
+            <div class="nav-bar">
+                <h3>SearchStorm</h3>
+                <div class="profile">
+                    <div class="togle">
+                        <input type="checkbox" id="theme" style="display: none;">
+                        <label for="theme">
+                            <div class="togle-ball"></div>
+                        </label>
+                    </div>
+                    <img src="asset/girl.png" alt="">
+                </div>
+            </div>
+            <div class="topContent">
+                <h1>
+                    <span class="brandHello">
+                        Hello,Amisha
+                    </span>
+                    <br>
+                    <span class="brandQues">
+                        How,can I help you,Today?
+                    </span>
+                </h1>
+                <br>
+                <ul>
+                    
+                </ul>
+                
+            </div>
+
+            <div class="chatContent">
+                <div class="results"></div>
+            </div>
+
+            <div class="userInput">
+               <input type="text" placeholder="Enter a prompt here..." class="prompt"> 
+                <div class="icons">
+                  <i class="fa-solid fa-image"></i>
+                  <i class="fa-solid fa-microphone"></i>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <p class="privacyPolicy">
+                Gemini can make mistakes, so double-check it
+            </p>
+            </div>
+
+            <div class="search-btn">
+                <button class="google">Google</button>
+                <button class="wikipedia"Wikipedia>Wiki</button>
+                <button class="images">Images</button>
+            </div>
+
+            <div class="searchResults">
+                <div class="resultsBelow"  id="googleSearch">
+                    <h3 class="g-head">Google Result</h3>
+                    <div class="googleResultList">
+                        
+                    </div>
+                </div>
+
+                <div class="resultsBelow" id="wikiSearch">
+                    <h3 class="h-tag">Wikipedia Result</h3>
+                    <div class="wikipediaResultList">
+                        <!-- content how to display -->
+                    </div>
+                </div>
+
+                <div class="resultsBelow" id="imageSearch">
+                    <h3 class="i-head">Images Result</h3>
+                    <div class="imagesResultList">
+                        <!-- content to display images -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/173e31d8ab.js" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+    <script src="script/google.js"></script>
+    <script src="script/wiki.js"></script>
+    <script src="script/images.js"></script>
+</body>
+</html>
