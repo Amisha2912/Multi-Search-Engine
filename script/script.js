@@ -145,10 +145,13 @@ function getGeminiResponse(question,appendHistory){
     result.innerHTML+=resultHeading;
     result.innerHTML+=resultData;
 
-    const apiURL=`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDV9w_cM7IG5soGbCgPNtiGmyHVPSPL5oQ`;
+    const apiURL=`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBYo0lJBiEyOdkCTq7NVsWbJOFes_riMLw`;
 
     fetch(apiURL,{
         method:"POST",
+        headers: {
+            'Content-Type': 'application/json',  // Make sure to specify the correct content type
+        },
         body:JSON.stringify({
             "contents": [{
                "parts":[{"text": question}]
