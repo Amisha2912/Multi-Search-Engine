@@ -36,8 +36,12 @@ i{
 #main-container{
     height:100%;
     display:flex;
+    overflow:scroll;
 }
 
+#main-container::-webkit-scrollbar{
+    width:0;
+}
 .activeDark .side-bar{
     background-color: #6b6969;
     color:#000;

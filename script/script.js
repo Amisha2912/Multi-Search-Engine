@@ -150,7 +150,7 @@ function getGeminiResponse(question,appendHistory){
     fetch(apiURL,{
         method:"POST",
         headers: {
-            'Content-Type': 'application/json',  // Make sure to specify the correct content type
+            'Content-Type': 'json',  // Make sure to specify the correct content type
         },
         body:JSON.stringify({
             "contents": [{
